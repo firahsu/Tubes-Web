@@ -102,7 +102,7 @@
       <p>
       Dari <b>hidangan tradisional</b> yang tak lekang oleh waktu, <b>makanan cepat saji</b> yang mudah dibuat, <b>menu diet sehat</b> yang menyehatkan tubuh, hingga <b>hidangan penutup</b> yang menggugah selera – temukan resep yang menghadirkan cita rasa, kebahagiaan, dan inspirasi ke meja makan Anda!
     </p>
-      <a href="loginko.php">
+      <a href="home.php">
       <button id="getStartedBtn">Get Started</button>
       </a>
     </div>

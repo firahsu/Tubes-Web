@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 if ($user['role'] === 'admin') {
                     header("Location: CRUD-admin.php");
                 } else {
-                    header("Location: home.php");
+                    header("Location: iindex.php");
                 }
                 exit;
             } else {

@@ -13,7 +13,7 @@ if (isset($_COOKIE['role'])) {
     setcookie('role', '', time() - 3600, "/"); // Hapus cookie role
 }
 
-// Redirect ke halaman login
-header("Location: loginko.php");
+// Tampilkan alert menggunakan JavaScript sebelum redirect
+echo '<script>alert("Anda berhasil logout!"); window.location.href = "loginko.php";</script>';
 exit;
 ?>
